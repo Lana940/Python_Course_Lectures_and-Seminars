@@ -8,7 +8,10 @@
 
 DayOfWeek = int(input('Put the number:'))
 
-if DayOfWeek > 5: 
+if 6 <= DayOfWeek <= 7: 
     print('Congratulations, it is a Weekend!')
-else:
+elif 0 < DayOfWeek < 6: 
     print(' Bad for you, it is a Working day :(')    
+else: 
+    print('The number is out of week range, try another number')
+
