@@ -1,12 +1,12 @@
 # Задайте список из N элементов, заполненных числами из промежутка [-N, N].
 # Найдите произведение элементов на указанных пользователем через пробел позициях.
 
-# n = int(input("Введите длину списка: "))
+n = int(input("Введите длину списка: "))
 
-# for i in range(-n, n + 1):
-#     my_list = [(-n, n + 1)] # tak sgen spisok ot -5 do 5 iz 11 elem
+for i in range(-n, n + 1):
+    my_list = [(-n, n + 1)] # tak sgen spisok ot -5 do 5 iz 11 elem
 
-# print(my_list)
+print(my_list)
 
 import random
 
@@ -17,12 +17,13 @@ for i in range(0, n):
 print(random_list)
 
 
-# num_1 = input(' введите index элемента: ')
+# # num_1 = input(' введите index элемента: ')
 
-# print(num_1.split())
+# # print(num_1.split())
 
-# mult = 1
-# mult *= random_list[num_1]
-# print(mult)
+# # mult = 1
+# # mult *= random_list[num_1]
+# # print(mult)
+
 
 
