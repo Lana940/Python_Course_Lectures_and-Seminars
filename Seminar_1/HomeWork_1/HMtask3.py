@@ -10,16 +10,16 @@
 X = int(input('X = '))
 Y = int(input('Y = '))
 A = None
-if( X > 0 and Y > 0): 
+if( X > 0) and (Y > 0): 
     A = 1
     print( f'The point with coordinates {X}, {Y} lies in {A} quadrant' )
-if ( X < 0 and Y > 0): 
+if ( X < 0) and (Y > 0): 
     A = 2
     print( f'The point with coordinates {X}, {Y} lies in {A} quadrant' )
-if ( X < 0 and Y < 0): 
+if ( X < 0) and (Y < 0): 
     A = 3
     print( f'The point with coordinates {X}, {Y} lies in {A} quadrant' )
-if ( X > 0 and Y < 0): 
+if ( X > 0) and (Y < 0): 
     A = 4
     print( f'The point with coordinates {X}, {Y} lies in {A} quadrant' )
 
